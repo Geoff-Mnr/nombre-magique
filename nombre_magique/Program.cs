@@ -25,9 +25,7 @@ namespace nombre_magique
                         Console.WriteLine("Erreur : le nombre doit être entre " +min+ " et " +max);
                      
                     }
-                    else{
-                        Console.WriteLine("Votre nombre est valide");
-                    }
+                    
                 }
                 catch
                 {
@@ -42,24 +40,46 @@ namespace nombre_magique
         {
             const int NOMBRE_MIN = 1;
             const int NOMBRE_MAX = 10;
-            const int NOMBRE_MAGIQUE = 5;
+            
 
             int nombre = NOMBRE_MIN-1;
+            Random rand = new Random();
+            int NOMBRE_MAGIQUE = rand.Next(NOMBRE_MIN, NOMBRE_MAX + 1);
 
-            while (nombre != NOMBRE_MAGIQUE)
+            int nbVies = 4;
+
+            while (nbVies > 0)
             {
+                Console.WriteLine();
+                Console.WriteLine("Votre nombre de vie:" + nbVies);
                 nombre = DemanderNombre(NOMBRE_MIN, NOMBRE_MAX);
-                if (NOMBRE_MAGIQUE > nombre){
-                Console.WriteLine("Le nombre magique est plus grand");
-                }else
-                    if (NOMBRE_MAGIQUE < nombre)
+                if (NOMBRE_MAGIQUE > nombre)
+                {
+                    Console.WriteLine("Le nombre magique est plus grand");
+                    
+                }
+                else if (NOMBRE_MAGIQUE < nombre)
                 {
                     Console.WriteLine("Le nombre magique est plus petit");
-                }else 
-                {
-                Console.WriteLine("Bravo vous avez trouvé le nombre magique");
+                    
                 }
+                else
+                {
+                    break;
+                }
+                nbVies--;
             }
+           
+            if (nombre==NOMBRE_MAGIQUE)
+                {
+                    Console.WriteLine("Bravo vous avez trouvé le nombre magique");
+                }
+            else 
+                {
+                    Console.WriteLine("Désolé vous avez perdu, le nombre magique était : "+NOMBRE_MAGIQUE);
+                }
+            
+            
         }
     }
 }
