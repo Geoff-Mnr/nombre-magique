@@ -1,0 +1,15 @@
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.csproj.AssemblyReference.cache
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.AssemblyInfoInputs.cache
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.AssemblyInfo.cs
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.csproj.CoreCompileInputs.cache
+D:\.net\projets\nombre_magique\nombre_magique\bin\Debug\net7.0\nombre_magique.exe
+D:\.net\projets\nombre_magique\nombre_magique\bin\Debug\net7.0\nombre_magique.deps.json
+D:\.net\projets\nombre_magique\nombre_magique\bin\Debug\net7.0\nombre_magique.runtimeconfig.json
+D:\.net\projets\nombre_magique\nombre_magique\bin\Debug\net7.0\nombre_magique.dll
+D:\.net\projets\nombre_magique\nombre_magique\bin\Debug\net7.0\nombre_magique.pdb
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.dll
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\refint\nombre_magique.dll
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.pdb
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\nombre_magique.genruntimeconfig.cache
+D:\.net\projets\nombre_magique\nombre_magique\obj\Debug\net7.0\ref\nombre_magique.dll
